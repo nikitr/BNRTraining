@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74CC2F71B7566D000DD1A64 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C74CC2F61B7566D000DD1A64 /* Item.m */; };
 		C7619B7F1B3A08200056D6F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7619B811B3A08200056D6F6 /* Localizable.strings */; };
 		C7C97E331B388FC200A90B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C97E321B388FC200A90B55 /* main.m */; };
 		C7C97E361B388FC200A90B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C97E351B388FC200A90B55 /* AppDelegate.m */; };
@@ -20,7 +21,6 @@
 		C7C97E701B38C12000A90B55 /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C97E6F1B38C12000A90B55 /* ImageStore.m */; };
 		C7C97E711B39FE7600A90B55 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7C97E731B39FE7600A90B55 /* DetailViewController.xib */; };
 		C7D09F741B4EFAA9007D9990 /* ItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D09F701B4EFAA9007D9990 /* ItemStore.m */; };
-		C7D09F751B4EFAA9007D9990 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D09F721B4EFAA9007D9990 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C74CC2F51B7566D000DD1A64 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		C74CC2F61B7566D000DD1A64 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		C7619B801B3A08200056D6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C7619B821B3A08220056D6F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C7619B831B3A08220056D6F6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -65,8 +67,6 @@
 		C7C97E771B3A00EB00A90B55 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C7D09F701B4EFAA9007D9990 /* ItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemStore.m; path = ../../../../../Downloads/ItemStore.m; sourceTree = "<group>"; };
 		C7D09F711B4EFAA9007D9990 /* ItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemStore.h; path = ../../../../../Downloads/ItemStore.h; sourceTree = "<group>"; };
-		C7D09F721B4EFAA9007D9990 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = ../../../../../Downloads/Item.m; sourceTree = "<group>"; };
-		C7D09F731B4EFAA9007D9990 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../../../../../Downloads/Item.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 			children = (
 				C7D09F701B4EFAA9007D9990 /* ItemStore.m */,
 				C7D09F711B4EFAA9007D9990 /* ItemStore.h */,
-				C7D09F721B4EFAA9007D9990 /* Item.m */,
-				C7D09F731B4EFAA9007D9990 /* Item.h */,
+				C74CC2F51B7566D000DD1A64 /* Item.h */,
+				C74CC2F61B7566D000DD1A64 /* Item.m */,
 				C7C97E341B388FC200A90B55 /* AppDelegate.h */,
 				C7C97E351B388FC200A90B55 /* AppDelegate.m */,
 				C7C97E561B38904F00A90B55 /* ItemsViewController.h */,
@@ -262,12 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D09F751B4EFAA9007D9990 /* Item.m in Sources */,
 				C7C97E641B38A63A00A90B55 /* ItemCell.m in Sources */,
 				C7C97E581B38904F00A90B55 /* ItemsViewController.m in Sources */,
 				C7C97E361B388FC200A90B55 /* AppDelegate.m in Sources */,
 				C7C97E331B388FC200A90B55 /* main.m in Sources */,
 				C7C97E6C1B38B41500A90B55 /* DetailViewController.m in Sources */,
+				C74CC2F71B7566D000DD1A64 /* Item.m in Sources */,
 				C7C97E701B38C12000A90B55 /* ImageStore.m in Sources */,
 				C7D09F741B4EFAA9007D9990 /* ItemStore.m in Sources */,
 			);
